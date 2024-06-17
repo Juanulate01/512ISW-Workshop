@@ -1,0 +1,138 @@
+body {
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: beige;
+}
+.main {
+  margin-top: 0;
+  text-align: center;
+}
+
+.phone {
+  position: absolute;
+  top: 40px;
+  right: 15%;
+  max-height: 500px;
+  z-index: 100;
+}
+
+.phone2 {
+  position: absolute;
+  top: 60px;
+  right: 12%;
+  max-height: 470px;
+}
+
+.caja {
+  background-color: white;
+  color: black;
+  width: 80%;
+  /* line-height: 120px; */
+  text-align: center;
+  margin: 0%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 20%;
+}
+
+.paragraph {
+  text-align: left;
+  font-size: 22px;
+}
+
+.button {
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: rgb(48, 163, 202);
+  color: white;
+}
+
+.caja2 {
+  background-image: url("/Workshop5/images/wallper.png");
+  min-height: 400px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: 0%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.caja2 div {
+  width: 20%;
+}
+.caja2 h2, .caja4 h2 {
+  margin: 0%;
+  margin-bottom: 2px;
+  font-size: 40px;
+}
+.caja2 h3 {
+  margin: 0%;
+  margin-bottom: 2px;
+  font-size: 22px;
+}
+
+.caja3 {
+  background-color: white;
+  color: black;
+  width: 60%;
+  text-align: center;
+  margin: 0%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  align-items: center;
+}
+
+.paragraph2{
+  text-align: center;
+  font-size: 22px;
+
+}
+
+.button2{
+  width: 250px;
+  height: 40px;
+}
+
+
+.caja4 {
+  background-image: url("/Workshop5/images/wallper.png");
+  min-height: 400px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.sumary{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+
+.image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+
