@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Proyecto</title>
+  </head>
+  <body>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+    <div>
+    <div class="container">
+      <div class="logo">
+        <img src="Imagenes/Logo.png" alt="logo" height="100" />
+      </div>
+      <div class="inputContainers">
+        <div>
+          <div
+            id="g_id_onload"
+            data-client_id="YOUR_GOOGLE_CLIENT_ID"
+            data-login_uri="https://your.domain/your_login_endpoint"
+            data-auto_prompt="false"
+          ></div>
+          <div
+            class="g_id_signin prueba"
+            data-type="standard"
+            data-size="large"
+            data-theme="outline"
+            data-text="sign_in_with"
+            data-shape="rectangular"
+            data-logo_alignment="left"
+          ></div>
+          <p style="font-weight: bold">Or</p>
+        </div>
+
+        <div>
+          <p for="textbox" class="inputLabel">Username</p>
+          <input
+            type="text"
+            id="textbox"
+            class="textbox"
+            placeholder=""
+          />
+        </div>
+        <div>
+          <p for="textbox" class="inputLabel">Password</p>
+          <input
+            type="password"
+            id="textbox"
+            class="textbox"
+            placeholder="**********"
+          />
+        </div>
+        <div>
+          <p class="inputLabel">
+            Not an user?
+            <a href="https://github.com/Juanulate01"> Register Now </a>
+          </p>
+          <button type="button" class="buttonLogin">Login</button>
+        </div>
+      </div>
+      <div class="downinfo">
+        <hr style="width: 100%; margin-bottom: 2em;" />
+        <p>Home | Rides | Bookings | Settings | Logins | Register</p>
+        <p class="position">
+          <img
+            src="Imagenes/IconoC.png"
+            alt="logo"
+            height="20"
+            style="margin-right: 10px"
+          />
+          Aventones.com
+        </p>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

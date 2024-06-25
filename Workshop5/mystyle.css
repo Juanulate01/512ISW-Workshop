@@ -12,15 +12,15 @@ body {
   position: absolute;
   top: 40px;
   right: 15%;
-  max-height: 500px;
   z-index: 100;
+  width: 80%;
 }
 
 .phone2 {
   position: absolute;
   top: 60px;
   right: 12%;
-  max-height: 470px;
+  width: 80%;
 }
 
 .caja {
