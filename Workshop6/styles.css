@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin: 0%;
+
+}
+h2{
+    margin: 10px;
+    margin-left: 0%;
+}
+
+.container {
+    width: 936px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: yellow;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+.nav {
+    background-color: orange;
+    padding: 10px;
+    width: 150px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+
+.content {
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.box a{
+    font-weight: normal;
+}
+
+.newRespon {
+    height: 160px;
+}
+
+.newTuto {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.newTools {
+    height: 100px;
+}
+
+.footer {
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+}
+.header h2{
+    margin-bottom: 0%;
+}
+.mobileNav {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        margin: 10px;
+        border-radius: 15px;
+        text-align: left;
+        width: 98%;
+    }
+    .nav {
+        float: none;
+        border-radius: 15px;
+        width: 94%;
+        margin: 10px;
+        align-items: center;
+    }
+    .content {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .box {
+        min-width: 90%;
+        margin: 10px;
+    }
+    .footer {
+        width: 94%;
+        border-radius: 15px;
+        margin: 10px;
+    }
+    .doubleBox{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .newRespon{
+        margin-bottom: 0;
+    }
+
+    .change {
+        display: none;
+    }
+    .mobileNav {
+        display: flex;
+        width: 20%;
+        background-color: #f0f0f0;
+        border-radius: 15px;
+    }
+    .container{
+        display: grid;
+        width: 600px;
+    }
+}
+
